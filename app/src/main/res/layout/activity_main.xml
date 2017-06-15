@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vikingchess.userinterfacechapter3.MainActivity">
+
+    <LinearLayout
+        android:layout_width="369dp"
+        android:layout_height="476dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="27dp">
+
+        <TextView
+            android:id="@+id/helloText"
+            android:layout_width="225dp"
+            android:layout_height="56dp"
+            android:text="Hello Android!"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="88dp"
+            tools:textSize="30sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintHorizontal_bias="0.1" />
+
+        <TextView
+            android:id="@+id/emailText"
+            android:layout_width="225dp"
+            android:layout_height="42dp"
+            android:text="TextView"
+            android:autoLink="email"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="35dp"
+            tools:text="davidflom01@gmail.com"
+        tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/favoriteAnimalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Type your favorite animal name"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <AutoCompleteTextView
+            android:id="@+id/continent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:completionHint="Which Continent can you find your anilmal" />
+
+        <Button
+            android:id="@+id/continentButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Press to see your Continent" />
+
+        <TextView
+            android:id="@+id/answerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        (
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
